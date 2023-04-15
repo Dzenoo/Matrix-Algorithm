@@ -119,7 +119,7 @@ const start = () => {
 
   console.log("Path:", path);
   console.log("Execution time:", Date.now() - startTime, "ms");
-  // console.table(matrix);
+   console.table(matrix);
 };
 
 start();
